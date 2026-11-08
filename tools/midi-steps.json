@@ -1,0 +1,254 @@
+[
+ {
+  "device": "Z1",
+  "prompt": "Left GAIN knob",
+  "targetId": "ch2.gain",
+  "kind": "absolute"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Left HI knob",
+  "targetId": "ch2.hi",
+  "kind": "absolute"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Left MID knob",
+  "targetId": "ch2.mid",
+  "kind": "absolute"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Left LOW knob",
+  "targetId": "ch2.lo",
+  "kind": "absolute"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Left FILTER FX knob",
+  "targetId": "filter1.freq",
+  "kind": "absolute"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Left FILTER FX ON button",
+  "targetId": "filter1.on",
+  "kind": "press"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Headphone CUE A button",
+  "targetId": "ch2.cue",
+  "kind": "press"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Left channel fader",
+  "targetId": "ch2.fader",
+  "kind": "absolute"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Right GAIN knob",
+  "targetId": "ch3.gain",
+  "kind": "absolute"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Right HI knob",
+  "targetId": "ch3.hi",
+  "kind": "absolute"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Right MID knob",
+  "targetId": "ch3.mid",
+  "kind": "absolute"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Right LOW knob",
+  "targetId": "ch3.lo",
+  "kind": "absolute"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Right FILTER FX knob",
+  "targetId": "filter2.freq",
+  "kind": "absolute"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Right FILTER FX ON button",
+  "targetId": "filter2.on",
+  "kind": "press"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Headphone CUE B button",
+  "targetId": "ch3.cue",
+  "kind": "press"
+ },
+ {
+  "device": "Z1",
+  "prompt": "Right channel fader",
+  "targetId": "ch3.fader",
+  "kind": "absolute"
+ },
+ {
+  "device": "X1",
+  "prompt": "Left FX: DRY/WET knob",
+  "targetId": "delay.level",
+  "kind": "absolute"
+ },
+ {
+  "device": "X1",
+  "prompt": "Left FX: knob 1",
+  "targetId": "delay.repeat",
+  "kind": "absolute"
+ },
+ {
+  "device": "X1",
+  "prompt": "Left FX: knob 2",
+  "targetId": "delay.tone",
+  "kind": "absolute"
+ },
+ {
+  "device": "X1",
+  "prompt": "Left FX: knob 3",
+  "targetId": "delay.time",
+  "kind": "absolute"
+ },
+ {
+  "device": "X1",
+  "prompt": "Left FX: ON button (under DRY/WET)",
+  "targetId": "delay.on",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "Right FX: DRY/WET knob",
+  "targetId": "reverb.level",
+  "kind": "absolute"
+ },
+ {
+  "device": "X1",
+  "prompt": "Right FX: knob 1",
+  "targetId": "reverb.decay",
+  "kind": "absolute"
+ },
+ {
+  "device": "X1",
+  "prompt": "Right FX: knob 2",
+  "targetId": "reverb.predelay",
+  "kind": "absolute"
+ },
+ {
+  "device": "X1",
+  "prompt": "Right FX: knob 3",
+  "targetId": "reverb.tone",
+  "kind": "absolute"
+ },
+ {
+  "device": "X1",
+  "prompt": "Right FX: ON button (under DRY/WET)",
+  "targetId": "reverb.on",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "Left LOOP encoder: turn it (Deck 1 jog)",
+  "targetId": "deck1.jog",
+  "kind": "relative"
+ },
+ {
+  "device": "X1",
+  "prompt": "Left LOOP encoder: push (Deck 1 4-beat loop)",
+  "targetId": "deck1.loop4",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "Right LOOP encoder: turn it (Deck 2 jog)",
+  "targetId": "deck2.jog",
+  "kind": "relative"
+ },
+ {
+  "device": "X1",
+  "prompt": "Right LOOP encoder: push (Deck 2 4-beat loop)",
+  "targetId": "deck2.loop4",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "HOTCUE 1 (Deck 1 hot cue A)",
+  "targetId": "deck1.hot0",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "HOTCUE 2 (Deck 1 hot cue B)",
+  "targetId": "deck1.hot1",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "HOTCUE 3 (Deck 2 hot cue A)",
+  "targetId": "deck2.hot0",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "HOTCUE 4 (Deck 2 hot cue B)",
+  "targetId": "deck2.hot1",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "Left FLUX button (→ Master Tempo)",
+  "targetId": "deck1.mt",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "Left SYNC button",
+  "targetId": "deck1.sync",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "Left CUE button",
+  "targetId": "deck1.cue",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "Left PLAY button",
+  "targetId": "deck1.play",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "Right FLUX button (→ Master Tempo)",
+  "targetId": "deck2.mt",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "Right SYNC button",
+  "targetId": "deck2.sync",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "Right CUE button",
+  "targetId": "deck2.cue",
+  "kind": "press"
+ },
+ {
+  "device": "X1",
+  "prompt": "Right PLAY button",
+  "targetId": "deck2.play",
+  "kind": "press"
+ }
+]

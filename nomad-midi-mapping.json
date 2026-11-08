@@ -1,0 +1,342 @@
+{
+  "app": "nomad-mixer",
+  "mappings": [
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 0,
+      "targetId": "ch2.gain",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 1,
+      "targetId": "ch2.hi",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 2,
+      "targetId": "ch2.mid",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 3,
+      "targetId": "ch2.lo",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 4,
+      "targetId": "filter1.freq",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 5,
+      "targetId": "filter1.on",
+      "type": "cc"
+    },
+    {
+      "channel": 2,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 1,
+      "targetId": "ch2.cue",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 6,
+      "targetId": "ch2.fader",
+      "type": "cc"
+    },
+    {
+      "channel": 1,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 0,
+      "targetId": "ch3.gain",
+      "type": "cc"
+    },
+    {
+      "channel": 1,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 1,
+      "targetId": "ch3.hi",
+      "type": "cc"
+    },
+    {
+      "channel": 1,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 2,
+      "targetId": "ch3.mid",
+      "type": "cc"
+    },
+    {
+      "channel": 1,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 3,
+      "targetId": "ch3.lo",
+      "type": "cc"
+    },
+    {
+      "channel": 1,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 4,
+      "targetId": "filter2.freq",
+      "type": "cc"
+    },
+    {
+      "channel": 1,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 5,
+      "targetId": "filter2.on",
+      "type": "cc"
+    },
+    {
+      "channel": 2,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 2,
+      "targetId": "ch3.cue",
+      "type": "cc"
+    },
+    {
+      "channel": 1,
+      "enc": "abs",
+      "input": "Traktor Kontrol Z1 Input",
+      "number": 6,
+      "targetId": "ch3.fader",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 0,
+      "targetId": "delay.level",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 2,
+      "targetId": "delay.repeat",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 4,
+      "targetId": "delay.tone",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 6,
+      "targetId": "delay.time",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 8,
+      "targetId": "delay.on",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 1,
+      "targetId": "reverb.level",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 3,
+      "targetId": "reverb.decay",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 5,
+      "targetId": "reverb.predelay",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 7,
+      "targetId": "reverb.tone",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 9,
+      "targetId": "reverb.on",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "rel",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 24,
+      "targetId": "deck1.jog",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 26,
+      "targetId": "deck1.loop4",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "rel",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 25,
+      "targetId": "deck2.jog",
+      "type": "cc"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 27,
+      "targetId": "deck2.loop4",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 30,
+      "targetId": "deck1.hot0",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 32,
+      "targetId": "deck1.hot1",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 34,
+      "targetId": "deck2.hot0",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 33,
+      "targetId": "deck2.hot1",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 38,
+      "targetId": "deck1.mt",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 40,
+      "targetId": "deck1.sync",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 42,
+      "targetId": "deck1.cue",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 44,
+      "targetId": "deck1.play",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 39,
+      "targetId": "deck2.mt",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 41,
+      "targetId": "deck2.sync",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 43,
+      "targetId": "deck2.cue",
+      "type": "note"
+    },
+    {
+      "channel": 0,
+      "enc": "abs",
+      "input": "Traktor Kontrol X1 MK2 - 1 Input",
+      "number": 45,
+      "targetId": "deck2.play",
+      "type": "note"
+    }
+  ],
+  "version": 1
+}

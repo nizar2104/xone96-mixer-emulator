@@ -3213,5 +3213,13 @@ export default tseslint.config(
       "@typescript-eslint/no-explicit-any": "off",
       "no-empty": "off",
     },
+  },
+  {
+    // Track analysis (beat grid, RGB waveform) runs in a dedicated Web Worker; these two files talk to it
+    // (not to a parent frame), so the parent-frame postMessage restriction does not apply.
+    files: ["src/lib/analysis-worker.ts", "src/lib/analysis-client.ts"],
+    rules: {
+      "no-restricted-syntax": "off",
+    },
   }
 );
