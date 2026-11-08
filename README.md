@@ -4,6 +4,10 @@
 
 Built with React, TypeScript, Vite and the Web Audio API. Everything runs locally in the browser; no account, no upload, and your USB is only ever read, never written.
 
+### ▶ [Play it now in your browser](https://nizar2104.github.io/xone96-mixer-emulator/)
+
+No install needed: open the link in **Chrome or Edge** on a computer.
+
 Made by **NO-MAD** · follow on Instagram: [@no.mad.dj_](https://www.instagram.com/no.mad.dj_/)
 
 ![NO-MAD DJ Setup: two CDJ-style decks, FX pedals and the 6+2 mixer](docs/screenshots/overview.png)
@@ -33,9 +37,13 @@ Made by **NO-MAD** · follow on Instagram: [@no.mad.dj_](https://www.instagram.c
 
 ## Step-by-step guide
 
-### 1. Install and start it
+### 1. Open it
 
-You need [Node.js](https://nodejs.org/) 20.19 or newer and **Google Chrome or Microsoft Edge** (needed for MIDI and for reading a USB folder).
+The quickest way: open **[nizar2104.github.io/xone96-mixer-emulator](https://nizar2104.github.io/xone96-mixer-emulator/)** in Chrome or Edge on a computer, and skip to step 2.
+
+#### Or run it on your own computer
+
+Running it locally also works offline. You need [Node.js](https://nodejs.org/) 20.19 or newer and **Google Chrome or Microsoft Edge** (needed for MIDI and for reading a USB folder).
 
 ```bash
 git clone https://github.com/nizar2104/xone96-mixer-emulator.git
