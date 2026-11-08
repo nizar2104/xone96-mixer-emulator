@@ -4,6 +4,10 @@
 
 Built with React, TypeScript, Vite and the Web Audio API. Everything runs locally in the browser; no account, no upload, and your USB is only ever read, never written.
 
+Made by **NO-MAD** · follow on Instagram: [@no.mad.dj_](https://www.instagram.com/no.mad.dj_/)
+
+![NO-MAD DJ Setup: two CDJ-style decks, FX pedals and the 6+2 mixer](docs/screenshots/overview.png)
+
 ## What's inside
 
 - **Two CDJ-style decks**: play / cue with real CDJ cue behaviour, VINYL and CDJ jog modes (scratch / pitch bend), needle search, loops (in / out / reloop / 4-beat), **8 hot cues (A–H)**, tempo ±6 / 10 / 16 % and WIDE, **Master Tempo** (key lock), automatic **BPM and beat-grid detection**, **BEAT SYNC** with phase lock and a scrolling RGB waveform.
@@ -12,6 +16,20 @@ Built with React, TypeScript, Vite and the Web Audio API. Everything runs locall
 - **FX pedals**: tempo-synced stereo **delay** (SEND 1) and **reverb** (SEND 2), patchable to RTN A–D, with footswitch bypass and trails.
 - **MIDI Learn**: map any MIDI controller, with guided step-by-step setups for **Traktor Kontrol Z1 (MK1)** and **X1 MK2**, LED feedback, and mapping export / import.
 - **Built-in loops and demo tracks**, so you can try everything without your own music.
+
+## Screenshots
+
+**Two CDJ-style decks** with RGB waveforms, beat grid, 8 hot cues, loops, tempo and Master Tempo:
+
+![Two CDJ-style decks](docs/screenshots/decks.png)
+
+**Browsing a rekordbox USB** on a deck: folders, playlists and tracks with BPM and key.
+
+<img src="docs/screenshots/usb-browser.png" alt="Deck USB browser showing a rekordbox playlist" width="420">
+
+**6+2 mixer and FX pedals**: EQ, sends, returns, two VCF filters with live response curves, delay and reverb:
+
+![Mixer and FX pedals](docs/screenshots/mixer-fx.png)
 
 ## Step-by-step guide
 
@@ -107,6 +125,10 @@ npm run build           # production build in dist/
 
 The rekordbox reader is written from the public format analysis by Deep Symmetry
 (https://djl-analysis.deepsymmetry.org/rekordbox-export-analysis/).
+
+## Follow
+
+Follow NO-MAD on Instagram: **[@no.mad.dj_](https://www.instagram.com/no.mad.dj_/)**
 
 ## License
 
